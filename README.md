@@ -10,7 +10,7 @@ if answer.lower()=='yes':
     if answer.lower()=='python':
         score += 1
         print('correct')
-    else:
+    while:
         print('Wrong Answer :(')
 
 
@@ -31,4 +31,4 @@ if answer.lower()=='yes':
 print('Thankyou for Playing this small quiz game, you attempted',score,"questions correctly!")
 mark=(score/total_questions)*100
 print('Marks obtained:',mark)
-print('BYE!')
+print('GOODBYE!')
